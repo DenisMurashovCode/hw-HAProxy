@@ -7,3 +7,14 @@
 ![1](img/img1.png)
 ![2](img/img2.png)
 
+## Задание 2
+
+Файл: haproxy2.cfg
+
+Настроена балансировка Weighted Round robin на 7 уровне на порту :8088.
+Веса серверов: s1 = 2, s2 = 3, s3 = 4.
+HAProxy балансирует только трафик с заголовком Host: example.local
+
+![3](img/img3.png)
+
+![4](img/img4.png)
